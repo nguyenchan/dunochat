@@ -3,6 +3,12 @@ Host your own Rocket.Chat server for **FREE** with [One-Click Deploy](https://he
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/nguyenchan/Rocket.Chat/tree/master)
 
+app chạy trên môi trường linux
+yêu cầu: Nodejs, mongodb, git, meteor
+hoặc deploy to heroku với meteor buildpack
+
+
+nội dung việt hóa json
 {
 "en": {
 "Channels": "Rooms"
