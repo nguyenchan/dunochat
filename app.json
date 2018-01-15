@@ -1,7 +1,7 @@
 {
   "name": "DunoChat",
   "description": "Slack-like online chat platform.",
-  "repository": "https://github.com/nguyenchan/dunochat",
+  "repository": "https://github.com/nguyenchan/Rocket.Chat",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_UIT.jpg",
   "keywords": ["meteor", "social", "community", "chat"],
   "website": "https://dunochat.com",

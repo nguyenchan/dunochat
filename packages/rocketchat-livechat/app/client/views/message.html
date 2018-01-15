@@ -4,7 +4,7 @@
 			<span class="thumb thumb-small" data-username="{{u.username}}" tabindex="1">{{> avatar username=u.username}}</span>
 			<span class="user" data-username="{{u.username}}" tabindex="1">
 				{{#if own}}
-					{{_ "You"}}
+					{{_ "Bạn"}}
 				{{else}}
 					{{sender}}
 				{{/if}}
@@ -14,7 +14,7 @@
 				<span class="info">
 					<span class="time">{{time}}</span>
 					{{#if edit}}
-						<span class="edited">({{_ "edited"}})</span>
+						<span class="edited">({{_ "Đã chỉnh sửa"}})</span>
 					{{/if}}
 				</span>
 			</div>

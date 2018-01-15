@@ -95,7 +95,7 @@ RocketChat.settings.get('Accounts_ForgetUserSessionOnWindowClose', (key, value) 
 	}
 });
 
-RocketChat.settings.get('Site_Name', (key, value = 'Rocket.Chat') => {
+RocketChat.settings.get('Site_Name', (key, value = 'DunoChat') => {
 	Inject.rawHead(key,
 		`<title>${ value }</title>` +
 		`<meta name="application-name" content="${ value }">` +

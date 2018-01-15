@@ -5,16 +5,16 @@
 				<span>{{{error}}}</span>
 			</div>
 			<form>
-				<h2>{{_ "Choose_a_new_channel"}}</h2>
+				<h2>{{_ "Chọn kênh mới"}}</h2>
 				<select name="department" class="switch-department-select">
-					<option value="">{{_ "Select_a_channel"}}</option>
+					<option value="">{{_ "Chọn kênh"}}</option>
 					{{#each departments}}
 						<option value="{{_id}}">{{name}}</option>
 					{{/each}}
 				</select>
 
-				<button type="submit" id="btnOk" class="button"> {{_ "Change"}} </button>
-				<button type="button" id="btnCancel" class="button secondary"> {{_ "Cancel"}} </button>
+				<button type="submit" id="btnOk" class="button"> {{_ "Đổi"}} </button>
+				<button type="button" id="btnCancel" class="button secondary"> {{_ "Hủy"}} </button>
 			</form>
 		</div>
 	{{/modal}}

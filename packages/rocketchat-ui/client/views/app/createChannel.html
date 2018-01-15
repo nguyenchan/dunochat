@@ -7,8 +7,8 @@
 		{{/each}}
 		<div class="create-channel__wrapper">
 			<header class="create-channel__header">
-				<h1 class="create-channel__title">{{_ "Create_A_New_Channel"}}</h1>
-				<p class="create-channel__description">{{_ "Channels_are_where_your_team_communicate"}}</p>
+				<h1 class="create-channel__title">{{_ "Tạo kênh mới"}}</h1>
+				<p class="create-channel__description">{{_ "Kênh là nơi bạn thảo luận với bạn bè"}}</p>
 			</header>
 			<form class="create-channel__content">
 				<div class="create-channel__switches">
@@ -31,7 +31,7 @@
 							<span class="rc-switch__button-inside"></span>
 						</span>
 							<span class="rc-switch__text">
-								{{_ "Read_only_channel"}}
+								{{_ "Kênh chỉ đọc"}}
 							</span>
 						</label>
 						<span class="rc-switch__description">{{readOnlyDescription}}</span>
@@ -40,7 +40,7 @@
 				<div class="create-channel__inputs">
 					<div class="rc-input {{#if invalidChannel}}rc-input--error{{/if}}">
 						<label class="rc-input__label">
-							<div class="rc-input__title">{{_ "Channel_name"}}</div>
+							<div class="rc-input__title">{{_ "Tên kênh"}}</div>
 							<div class="rc-input__wrapper">
 								<div class="rc-input__icon">
 									{{> icon block="rc-input__icon-svg" icon=iconType }}
@@ -54,13 +54,13 @@
 								<div class="rc-input__error-icon">
 									{{> icon block="rc-input__error-icon" icon="warning" classes="rc-input__error-icon-svg"}}
 								</div>
-								<div class="rc-input__error-message">{{_ "Channel_already_exist_static"}}</div>
+								<div class="rc-input__error-message">{{_ "Kênh này đã tồn tại"}}</div>
 							</div>
 						{{/if}}
 					</div>
 					<div class="rc-input">
 						<label class="rc-input__label">
-							<div class="rc-input__title">{{_ "Invite_Users"}}</div>
+							<div class="rc-input__title">{{_ "Mời bạn bè"}}</div>
 							<div class="rc-input__wrapper">
 								<div class="rc-input__icon">
 									{{> icon block="rc-input__icon-svg" icon="at"}}

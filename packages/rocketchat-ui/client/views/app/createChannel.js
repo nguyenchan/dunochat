@@ -78,13 +78,13 @@ Template.createChannel.helpers({
 		return invalid || inUse;
 	},
 	typeLabel() {
-		return t(Template.instance().type.get() === 'p' ? t('Private_Channel') : t('Public_Channel'));
+		return t(Template.instance().type.get() === 'p' ? t('Kênh riêng tư') : t('Kênh công khai'));
 	},
 	typeDescription() {
-		return t(Template.instance().type.get() === 'p' ? t('Just_invited_people_can_access_this_channel') : t('Everyone_can_access_this_channel'));
+		return t(Template.instance().type.get() === 'p' ? t('Chỉ những người được mời có thể truy cập kênh này') : t('Mọi người có thể truy cập kênh này'));
 	},
 	readOnlyDescription() {
-		return t(Template.instance().readOnly.get() ? t('Only_authorized_users_can_write_new_messages') : t('All_users_in_the_channel_can_write_new_messages'));
+		return t(Template.instance().readOnly.get() ? t('Chỉ những người có quyền mới được viết tin nhắn mới') : t('Mọi người trong kênh có thể viết tin nhắn mới'));
 	},
 	createIsDisabled() {
 		const instance = Template.instance();

@@ -1,13 +1,17 @@
 {
 	"name": "DunoChat",
-	"description": "The Ultimate Open Source WebChat Platform",
-	"version": "0.69",
+	"description": "Open Source WebChat Platform",
+	"version": "0.60.2",
 	"author": {
-		"name": "DunoChat",
-		"url": "https://dunochat.com/"
+		"name": "nguyenchan",
+		"url": "https://dunochat.herokuapp.com/"
 	},
 	"contributors": [
 		
+		{
+			"name": "Ad",
+			"email": "ad@duno.chat"
+		}
 	],
 	"mocha": {
 		"tests": [
